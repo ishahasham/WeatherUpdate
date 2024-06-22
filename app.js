@@ -17,10 +17,13 @@ const goWeather = (data) => {
         return;
     }
     weather.innerHTML = `
-        <div>
-            <h2>${data.main.temp}℃</h2>
-            <h4> ${data.weather[0].main} </h4>
-        </div>
+        //  <div>
+        //         <img src="http://openweathermap.org/img/w/${data.weather[0].icon}.png" alt="">
+        //     </div>
+        // <div>
+        //     <h2>${data.main.temp}℃</h2>
+        //     <h4>&nbsp;&nbsp; ${data.weather[0].main} </h4>
+        // </div>
     `
 }
 

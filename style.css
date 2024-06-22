@@ -16,6 +16,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .row {
@@ -35,7 +36,7 @@ main {
 }
 #search {
     font-size: 25px;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     border: none;
     outline: none;
@@ -45,7 +46,7 @@ main {
     
 }
 #search-button {
-    padding: 15px;
+    padding: 10px;
     font-size: 25px;
     border: none;
     border-left: none; 
@@ -62,3 +63,4 @@ main {
 .heading{
     color: aliceblue;
 }
+
