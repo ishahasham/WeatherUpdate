@@ -7,21 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <main>
         <div>
             <h1 class="heading">Weather App:</h1>
         </div>
-        <br>
-        <div class="row" style="text-align: center;">
-            <form action="" id="form">
+        <div class="search-container">
+            <form id="form">
                 <input type="search" id="search" placeholder="Search your City">
-                <button id="search-button" onclick="goWeather">Go!</button>
+                <button id="search-button">Go!</button>
+                <button type="button" id="location-button">Use Current Location</button>
             </form>
-           
         </div>
         <div class="row" id="weather"></div>
-    
     </main>
     <script src="app.js"></script>
 </body>

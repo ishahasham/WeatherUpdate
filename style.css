@@ -5,62 +5,61 @@
     box-sizing: border-box;
 }
 
+body {
+    background: linear-gradient(to top, #2e3a59, #7682a5);
+    color: white;
+}
+
 main {
-    width: 100%;
-    height: 100vh;
-    background-image:url(./beautiful-1920X1080-wallpaper-m3rjuppe9bm5i2v6.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding-bottom: 100px;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    color: #f4f4f9;
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+}
+
+#search {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 15px 0 0 15px;
+    border: none;
+    outline: none;
+}
+
+#search-button, #location-button {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+    background-color: #6a5acd;
+    color: white;
+}
+
+#search-button:hover, #location-button:hover {
+    background-color: #483d8b;
 }
 
 .row {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.weather-info {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 100px;
-    margin: 10px;
-    font-size: 40px;
-    color: white;
+    gap: 10px;
 }
-#form{
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    margin: 20px;
-}
-#search {
-    font-size: 25px;
-    padding: 10px;
-    text-align: center;
-    border: none;
-    outline: none;
-    box-shadow: 0px 0px 5px grey;
-    border-radius: 25px 0 0 25px; 
-    outline: none; 
-    
-}
-#search-button {
-    padding: 10px;
-    font-size: 25px;
-    border: none;
-    border-left: none; 
-    border-radius: 0 25px 25px 0;
-    text-align: center;
-    box-shadow: 0px 0px 5px grey;
-    cursor: pointer; 
-    outline: none; 
-}
-
-#search-button:hover {
-    background-color: #7e6f10; 
-}
-.heading{
-    color: aliceblue;
-}
-
